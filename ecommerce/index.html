@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		    <link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./style/all.min.css">
+        <link rel="stylesheet" href="./style/owl.carousel.min.css">
+        <link rel="stylesheet" href="./style/owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="./style/custom.css">
+        <title>آنلاین شاپ</title>
+	</head>
+    <body>
+      <!-- Navbar -->
+        <nav class="d-flex justify-content-around">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between">
+                        <div class="navbar_right d-inline-flex">
+                            <a href="#">
+                            <img src="./images/logo.png">
+                            </a>
+                            <ul class="nav align-items-center pe-0 d-md-flex d-none">
+                                <li class="nav-item line_hover">
+                                <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                                </li>
+                                <li class="nav-item line_hover">
+                                <a class="nav-link" href="#">فروشگاه</a>
+                                </li>
+                                <li class="nav-item line_hover">
+                                <a class="nav-link" href="#">دسته بندی ها</a>
+                                </li>
+                                <li class="nav-item line_hover">
+                                <a class="nav-link">درباره ما</a>
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="navbar_left d-inline-flex">
+                      <ul class="nav align-items-center">
+                        <li class="nav-item d-sm-flex d-none">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <li class="nav-item d-sm-flex d-none">
+                          <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+                        <li class="nav-item d-sm-flex d-none ">
+                          <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i></a>
+                        </li>
+                        <li class="nav-item d-sm-flex d-none">
+                          <a class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                        <li class="nav-item  d-flex d-md-none">
+                            <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                            </a>
+                            <div class="offcanvas offcanvas-md offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                              <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">منو راهبری</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                <ul class="nav flex-column pe-0">
+                                  <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                                      <hr class="my-1">
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">فروشگاه</a>
+                                      <hr class="my-1">
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">دسته بندی ها</a>
+                                      <hr class="my-1">
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link">درباره ما</a>
+                                      <hr class="my-1">
+                                    </li>
+                                    <ul class="nav align-items-center pe-0 p-2 d-flex d-sm-none">
+                                      <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i></a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+                                      </li>
+                                    </ul>
+                                 </ul>
+                               </div>
+                             </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+      <!-- Header -->
+        <header class="position-relative">
+          <div class="socials">
+            <span>ما را دنبال کنید</span>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-telegram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-11">
+                <div class="carousel_wrapper">
+                  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                       <!-- 1 -->
+                      <div class="carousel-item active">
+                        <div class="slider_image_wrapper">
+                          <div style="background-image: url(./images/slider1.jpg);"></div>
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                          <span>جدید</span>
+                          <h3>پر تخفیف ترین پوشاک</h3>
+                          <p>بهترین فرصت خرید</p>
+                          <a href="#" class="line_hover_active">مشاهده محصولات</a>
+                        </div>
+                      </div>
+                       <!-- 2 -->
+                       <div class="carousel-item">
+                        <div class="slider_image_wrapper">
+                          <div style="background-image: url(./images/slider2.jpg);"></div>
+                        </div>
+                        <div class="carousel-caption with-space-on-left d-none d-md-block">
+                          <span>حراج</span>
+                          <h3>جشنواره آخر فصل تابستان</h3>
+                          <p>تا 70% تخفیف</p>
+                          <a href="#" class="line_hover_active">اطلاعات بیشتر</a>
+                        </div>
+                      </div>
+                       <!-- 3 -->
+                       <div class="carousel-item">
+                        <div class="slider_image_wrapper">
+                          <div style="background-image: url(./images/slider3.jpg);"></div>
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                          <span class="third_span">جدید</span>
+                          <h3>خرید لباس پائیزه</h3>
+                          <p>فرصت استثنائی</p>
+                          <a href="#" class="line_hover_active">مشاهده</a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="scroll_info">
+            <span>اسکرول کنید</span>
+          </div>
+        </header>
+      <!-- Categories -->
+        <section id="categories">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-12">
+                <div class="categories_right">
+                  <div class="overlay"></div>
+                    <div class="categories_right_img" style="background-image:url(./images/sample1.jpg);"></div>
+                    <div class="categories_right_text">
+                        <span>جدیدترین</span>
+                        <h3>لباس زنانه</h3>
+                        <a href="#" class="line_hover_active">رفتن به فروشگاه</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-12">
+                <div class="categories_left">
+                  <div class="overlay"></div>
+                  <div class="categories_left_img" style="background-image:url(./images/sample2.jpg);"></div>
+                    <div class="categories_left_text">
+                          <span>جدیدترین</span>
+                          <h3>لباس مردانه</h3>
+                          <a href="#" class="line_hover_active">رفتن به فروشگاه</a>
+                      </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                      <div class="categories_left_bottom_right">
+                        <div class="overlay"></div>
+                        <div class="categories_left_img" style="background-image:url(./images/sample3.jpg);"></div>
+                        <div class="categories_left_text end_text">
+                              <span>جدیدترین</span>
+                              <h3>لباس بچگانه</h3>
+                              <a href="#" class="line_hover_active">رفتن به فروشگاه</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="categories_left_bottom_left">
+                      <div class="overlay"></div>
+                      <div class="categories_left_img" style="background-image:url(./images/sample4.jpg);"></div>
+                      <div class="categories_left_text end_text">
+                            <span>جدیدترین</span>
+                            <h3>اکسسوری</h3>
+                            <a href="#" class="line_hover_active">رفتن به فروشگاه</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Products -->
+        <section id="products">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="text-center">محبوب ترین محصولات</h3>
+              </div>
+              <div class="col-12">
+                <ul class="list-inline text-center pe-0 mb-4">
+                  <li class="list-inline-item me-0 ms-2"><a href="#" class="line_hover_active pb-1">جدیدترین</a></li>
+                  <li class="list-inline-item me-0 ms-2"><a href="#" class="line_hover_active pb-1">محبوب ترین</a></li>
+                  <li class="list-inline-item"><a href="#" class="line_hover_active pb-1">پر بازدید ترین</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <!-- 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/person1.jpg);"></div>
+                          </div>
+                      </a>
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">زنانه</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>لباس زنانه</h6>
+                          <span class="product_card_price">1,200,000 تومان</span>
+                      </div>
+                    </div>
+                </div>
+              <!-- 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="product_card">
+                    <a href="#">
+                        <div class="product_img_wrapper">
+                          <div class="product_img" style="background-image: url(./images/person2.jpg);"></div>
+                        </div>
+                    </a>    
+                    <div class="product_text mt-2">
+                        <div class="d-flex justify-content-between product_text_top mb-1">
+                          <a href="#">مردانه</a>
+                          <i class="far fa-heart"></i>
+                        </div>
+                        <h6>لباس مردانه</h6>
+                        <div class="product_card_price_off">
+                            <del>2,150,000</del>
+                            <span>2,000,000 تومان</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product_card">
+                  <a href="#">
+                      <div class="product_img_wrapper">
+                        <div class="product_img" style="background-image: url(./images/person3.jpg);"></div>
+                      </div>
+                  </a>
+                  <div class="product_text mt-2">
+                      <div class="d-flex justify-content-between product_text_top mb-1">
+                        <a href="#">زنانه</a>
+                        <i class="far fa-heart"></i>
+                      </div>
+                      <h6>لباس پائیزه </h6>
+                      <span class="product_card_price">1,700,000 تومان</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product_card">
+                  <a href="#">
+                      <div class="product_img_wrapper">
+                        <div class="product_img" style="background-image: url(./images/person4.jpg);"></div>
+                      </div>
+                  </a>
+                  <div class="product_text mt-2">
+                      <div class="d-flex justify-content-between product_text_top mb-1">
+                        <a href="#">مردانه</a>
+                        <i class="far fa-heart"></i>
+                      </div>
+                      <h6>لباس پائیزه</h6>
+                      <div class="product_card_price_off">
+                          <del>2,000,000</del>
+                          <span>1,800,000 تومان</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="product_card">
+              <a href="#">
+                  <div class="product_img_wrapper">
+                    <div class="product_img" style="background-image: url(./images/person5.jpg);"></div>
+                  </div>
+              </a>
+              <div class="product_text mt-2">
+                  <div class="d-flex justify-content-between product_text_top mb-1">
+                    <a href="#">بچگانه</a>
+                    <i class="far fa-heart"></i>
+                  </div>
+                  <h6>کلاه بافت</h6>
+                  <span class="product_card_price">700,000 تومان</span>
+              </div>
+              </div>
+            </div>
+              <!-- 6 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="product_card">
+                  <a href="#">
+                      <div class="product_img_wrapper">
+                        <div class="product_img" style="background-image: url(./images/person6.jpg);"></div>
+                      </div>
+                  </a>
+                  <div class="product_text mt-2">
+                      <div class="d-flex justify-content-between product_text_top mb-1">
+                        <a href="#">زنانه</a>
+                        <i class="far fa-heart"></i>
+                      </div>
+                      <h6>پیراهن زنانه</h6>
+                      <div class="product_card_price_off">
+                          <del>1,300,000</del>
+                          <span>1,150,000 تومان</span>
+                      </div>
+                  </div>
+                </div>
+                </div>
+              <!-- 7 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="product_card">
+                <a href="#">
+                    <div class="product_img_wrapper">
+                      <div class="product_img" style="background-image: url(./images/person7.jpg);"></div>
+                    </div>
+                </a>
+                <div class="product_text mt-2">
+                    <div class="d-flex justify-content-between product_text_top mb-1">
+                      <a href="#">اکسسوری</a>
+                      <i class="far fa-heart"></i>
+                    </div>
+                    <h6>گردنبند</h6>
+                    <span class="product_card_price">1,600,000 تومان</span>
+                </div>
+              </div>
+                </div>
+              <!-- 8 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="product_card">
+            <a href="#">
+                <div class="product_img_wrapper">
+                  <div class="product_img" style="background-image: url(./images/person8.jpg);"></div>
+                </div>
+            </a>
+            <div class="product_text mt-2">
+                <div class="d-flex justify-content-between product_text_top mb-1">
+                  <a href="#">مردانه</a>
+                  <i class="far fa-heart"></i>
+                </div>
+                <h6>پلیور پائیزی</h6>
+                <div class="product_card_price_off">
+                    <del>2,200,000</del>
+                    <span>2,000,000 تومان</span>
+                </div>
+            </div>
+          </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="see_more text-center pb-1">
+                        <a href="#" class="line_hover_active">مشاهده بیشتر</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+      <!-- Events -->
+        <section id="event_box">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-11">
+                        <div class="event_box_wrapper">
+                            <div></div>
+                            <div class="event_title">
+                              <span>جدید</span>
+                              <h3>فروش ویژه</h3>
+                              <p>بهترین فرصت خرید</p>
+                              <a href="#" class="line_hover_active">اطلاعات بیشتر</a>
+                            </div>
+                            <div class="countdown">
+                              <p class="timer">
+                                <span id="days"></span>
+                                <span id="hours"></span>
+                                <span id="minutes"></span>
+                                <span id="seconds"></span>
+                              </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- Multiple banners -->
+        <section id="multiple_banners">
+            <div class="container">
+                <div class="row">
+                  <div class="col-xl-6 col-12">
+                    <div class="banner_box">
+                      <div class="overlay"></div>
+                        <div class="banner_box_img" style="background-image:url(./images/fashion1.jpg);"></div>
+                        <div class="banner_box_text">
+                            <span>محبوب ترین</span>
+                            <h3>لباس زنانه</h3>
+                            <a href="#" class="line_hover_active">فروشگاه</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-12">
+                    <div class="banner_box">
+                      <div class="overlay"></div>
+                        <div class="banner_box_img" style="background-image:url(./images/fashion2.jpg);"></div>
+                        <div class="banner_box_text">
+                            <span>محبوب ترین</span>
+                            <h3>لباس مردانه</h3>
+                            <a href="#" class="line_hover_active">فروشگاه</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+      <!-- Special -->
+        <section id="special">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="text-center">محصولات ویژه</h3>
+              </div>
+              <div class="col-12">
+                  <div class="owl-carousel">
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/special1.jpg);"></div>
+                          </div>
+                      </a>
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">مردانه و زنانه</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>کلاه بیسبالی ساده</h6>
+                          <span class="product_card_price">700,000 تومان</span>
+                      </div>
+                    </div>
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/special2.jpg);"></div>
+                          </div>
+                      </a>
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">اکسسوری</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>عینک آفتابی</h6>
+                          <span class="product_card_price">3,500,000 تومان</span>
+                      </div>
+                    </div>
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/special3.jpg);"></div>
+                          </div>
+                      </a>
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">زنانه</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>کوله پشتی</h6>
+                          <span class="product_card_price">1,700,000 تومان</span>
+                      </div>
+                    </div>
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/special4.jpg);"></div>
+                          </div>
+                      </a>
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">مردانه</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>کتونی Puma</h6>
+                          <div class="product_card_price_off">
+                              <del>2,700,000</del>
+                              <span>2,500,000 تومان</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/special5.jpg);"></div>
+                          </div>
+                      </a>    
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">زنانه</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>کراپ تاپ</h6>
+                          <div class="product_card_price_off">
+                              <del>1,500,000</del>
+                              <span>1,250,000 تومان</span>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/special6.jpg);"></div>
+                          </div>
+                      </a>
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">مردانه و زنانه</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>تیشرت کتان</h6>
+                          <span class="product_card_price">450,000 تومان</span>
+
+                      </div>
+                    </div>
+                    <div class="product_card">
+                      <a href="#">
+                          <div class="product_img_wrapper">
+                            <div class="product_img" style="background-image: url(./images/special7.jpg);"></div>
+                          </div>
+                      </a>
+                      <div class="product_text mt-2">
+                          <div class="d-flex justify-content-between product_text_top mb-1">
+                            <a href="#">مردانه</a>
+                            <i class="far fa-heart"></i>
+                          </div>
+                          <h6>شلوار کارگو</h6>
+                          <div class="product_card_price_off">
+                              <del>1,100,000</del>
+                              <span>950,000 تومان</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Social -->
+        <section id="social">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                      <h3 class="text-center">ما در اینستاگرام</h3>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta1.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta2.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta3.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta4.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta5.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta6.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta7.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta8.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta9.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta10.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta11.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                      <a href="#">
+                          <div class="social_image_wrapper">
+                              <div style="background-image: url(./images/insta12.jpg);"></div>
+                          </div>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- Services -->
+        <section id="services">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="services_box">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <h3>ارسال سریع</h3>
+                            <span>ارسال سریع به تمام نقاط کشور</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="services_box">
+                          <i class="fa-solid fa-headset"></i>
+                          <h3>پشتیبانی</h3>
+                          <span>همه روزه و به صورت 24 ساعته</span>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="services_box">
+                        <i class="fa-solid fa-handshake"></i>
+                        <h3>امکان پرداخت در محل</h3>
+                        <span>به همراه هفت روز ضمانت بازگشت کالا</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+      <!-- Footer -->
+        <footer>
+          <div class="footer_top">
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="about">
+                        <img src="./images/logo2.png" width="55px">
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                        <ul class="pe-0">
+                            <li>example@gmail.com</li>
+                            <li>+9821 232 6356</li>
+                        </ul>
+                        <div>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1 order-2">
+                  <div class="row">
+                    <div class="col-4">
+                        <div class="footer_vertical_list">
+                          <h5>دسته‌بندی‌ها</h5>
+                          <ul class="pe-0">
+                              <li><a href="#">لباس زنانه</a></li>
+                              <li><a href="#">لباس مردانه</a></li>
+                              <li><a href="#">لباس بچگانه</a></li>
+                              <li><a href="#">اکسسوری </a></li>
+                              <li><a href="#">محصولات ورزشی</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="footer_vertical_list">
+                        <h5>خدمات مشتریان</h5>
+                        <ul class="pe-0">
+                            <li><a href="#"> پرسش‌های متداول</a></li>
+                            <li><a href="#"> بازگرداندن کالا</a></li>
+                            <li><a href="#">شرایط استفاده</a></li>
+                            <li><a href="#">حریم خصوصی</a></li>
+                            <li><a href="#">شرایط و قوانین</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="footer_vertical_list">
+                        <h5>اطلاعات فروشگاه</h5>
+                        <ul class="pe-0">
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">همکاری با ما</a></li>
+                            <li><a href="#">فروش کالا در فروشگاه</a></li>
+                            <li><a href="#">وبلاگ فروشگاه</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 order-lg-2 order-1">
+                    <div class="subscribe">
+                        <h5>با خبر شوید</h5>
+                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                        <div class="input-group input-group-sm mb-3">
+                          <input type="text" class="form-control" placeholder="ایمیل خود را وارد کنید" aria-label="ایمیل خود را وارد کنید" aria-describedby="button-addon2">
+                          <button class="btn" type="button" id="button-addon2">ارسال</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bottom">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="divider"></div>
+                      </div>
+                      <div class="col-4">
+                          <span>۱۴۰۲</span>
+                      </div>
+                      <div class="col-8">
+                        <div class="change_value d-flex justify-content-end">
+                            <div>
+                              <span>واحد پول</span>
+                              <div class="btn-group dropup">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  تومان
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <!-- Dropdown menu links -->
+                                  <li class="pe-2">تومان</li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li class="pe-2">ریال</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div>
+                              <span>زبان سایت</span>
+                              <div class="btn-group dropup">
+                                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                  فارسی
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <!-- Dropdown menu links -->
+                                  <li class="pe-2">فارسی</li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li class="pe-2">عربی</li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/timer.js"></script>
+    <script>
+          countdown('12/19/2024 03:14:07 AM');
+    </script>
+    <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+              rtl:true,
+              loop:true,
+              dots:false,
+              margin:20,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                      items:1,
+                      nav:false,
+                      loop:true
+                  },
+                  700:{
+                      items:2,
+                      nav:true,
+                      loop:true
+                  },
+                  1000:{
+                      items:4,
+                      nav:true,
+                      loop:true
+                  }
+              }
+          });
+      });
+    </script>
+	</body>
+</html>
